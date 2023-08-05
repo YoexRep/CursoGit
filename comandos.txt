@@ -2,3 +2,35 @@ Este sera un curso de prueba para probar comandos y branch en git
 
 
 1- git clone <https://link-con-nombre-del-repositorio>  --> se usa para clonar el repositorio
+2- git status --> Nos dice el estado actual de el repositorio.
+3- git config --> se usa inicialmente para configurar el nombre y email de usario en el repositorio local.
+4- git branch --> se utiliza para determinar en cual branch el repositorio esta. Es tambien usado para 
+anadir y eliminar una branch.
+|                         Ejemplos                          |
+|create a new branch           | git branch <branch_name>   |
+|List all remote/local branches| git branch -a              |
+|delete a branch               | git branch -d <branch_name>|
+
+5- git checkout -> se usa para cambiar de branches, siempre que el trabajo se inicie en una branch diferente.
+El comando funciona en tres entidades separadas: archivos, confirmaciones y ramas.
+
+|Checkout an existing branch                    |  git checkout <branch_name>   |
+|Checkout and create a new branch with that name|  git checkout -b <new_branch> |
+
+6- git merge --> Se utiliza para fusionar los cambios en la rama de ensayo con la rama estable.
+ex : 'git merge <branch_name>'
+
+7- git remote --> se usa para crear, ver y eliminar conexiones a otros repositorios.
+ex : 'git remote add origin <address>'
+
+8- git pull --> se utiliza para obtener y fusionar cambios desde el repositorio remoto al repositorio local.
+ex : 'git pull <branch_name> <remote URL>'
+
+9- git push --> se utiliza para transferir las confirmaciones o enviar el contenido del repositorio local al repositorio remoto.
+ex : 'git push -u origin master'
+
+10- git stash --> es un comando que te permite guardar temporalmente los cambios que tienes en tu directorio de trabajo sin hacer commit.
+|                            Ejemplos                             |
+| Store current work with untracked files          | git stash -u |
+| Bring stashed work back to the working directory | git stash pop|
+

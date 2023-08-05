@@ -1,1 +1,4 @@
 Este sera un curso de prueba para probar comandos y branch en git
+
+
+1- git clone <https://link-con-nombre-del-repositorio>  --> se usa para clonar el repositorio
